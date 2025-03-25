@@ -1,0 +1,32 @@
+main {
+
+    width: 100%;
+    height: 90dvh;
+
+    padding: 3em 2em;
+
+    display: grid;
+    justify-content: center;
+}
+
+main .source-section {position: relative;}
+
+main .source-section .source-input {
+
+    background-color: #383838cc;
+
+    width: 400px;
+    height: 2em;
+
+    padding: 5px 12px;
+
+    border: 2px solid #f00;
+    border-radius: 20px;
+
+
+    font-size: 1.2em;
+    color: #cc5757;
+
+    outline: none;
+    inline-size: none;
+}

@@ -1,29 +1,3 @@
-* {
-
-    margin: 0;
-    padding: 0;
-
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-button {cursor: pointer;}
-li {list-style: none;}
-.title, .nome {cursor: default;}
-
-body {
-
-    width: 100%;
-    height: 100dvh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #000;
-}
-
 header {
 
     background-color: #1d1d1d;
@@ -38,13 +12,13 @@ header {
 
 header .logo {
 
-    background-color: #fff;
+    background-color: #ffffff6c;
 
-    width: 3em;
+    width: 10em;
     height: 3em;
 
     border: 2px solid #000;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 header .title {
@@ -88,10 +62,4 @@ header .navbar .menu-list .item-menu a::before {
 
 header .navbar .menu-list .item-menu a:hover::before {
     width: 100%;
-}
-
-main {
-
-    width: 100%;
-    height: 90dvh;
 }
